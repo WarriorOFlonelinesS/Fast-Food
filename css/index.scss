@@ -1,0 +1,487 @@
+@import url(../css/rule.css);
+
+.header{
+    background: url(../img/bg.png) no-repeat;
+    background-size: cover;
+    padding-bottom: 248px;
+}
+
+.container {
+    margin: 0 100px;
+    
+}
+
+.header-line {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-menu {
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu__link {
+    margin-right: 28px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    
+    color: #FFFFFF;
+    
+    opacity: 0.7;
+}
+
+.menu__link:hover{
+    font-weight: bold;
+    opacity: 1;
+    transition: all .5s;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 165px;
+    height: 49px;
+    background: #F6762C;
+    border-radius: 5px;
+    color: #FFFFFF;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.button:hover{
+    background-color: #f64e2c;
+    transition: all .5s;
+}
+
+.header-holder{
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+}
+
+.title{
+    width: 555px;
+    height: 121px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 57.33px;
+    line-height: 67px;
+    
+    color: #FFFFFF;
+}
+
+.subtitle{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.1em;
+    color: #FFFFFF;
+}
+
+.text{
+    width: 523px;
+    height: 86px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: start;
+    color: #FFFFFF;
+    
+    opacity: 0.7;
+}
+
+.header__subtitle {
+    margin-bottom: 7px;
+    margin-top: 186px;
+}
+
+.header__title {
+    margin-bottom: 37px;
+}
+
+.header__text {
+    margin-bottom: 37px;
+}
+
+.dishes{
+    padding-bottom: 200px;
+    background: #1C1C1C;
+}
+
+.dishes-items {
+    display: flex;
+    justify-content: center;
+    margin-top: -6px;
+    flex-wrap: wrap;
+}
+.item__card {
+    width: 262px;
+    height: 323px;
+    margin-right: 28px;
+    background: #312F30;
+    border-radius: 10px;
+    margin-top: 115px;
+}
+
+.item__img_margin-left{
+    margin-left: -5px;
+}
+
+.item__subtitle {
+    text-align: center;
+    font-weight: 500;
+    font-size: 20px;
+    margin-top: 23px;
+    margin-bottom: 13px;
+}
+
+.item__text {
+    text-align: center;
+}
+
+.item__text{
+    font-size: 16px;
+    width: 263px;
+    height: 54px;
+}
+
+.burger{
+    background: #312F30;
+    padding-bottom: 50px;
+}
+
+.burger-holder{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.right__title {
+    margin-bottom: -30px;
+    font-size: 44.2px;
+}
+
+.right__text {
+
+    font-size: 16px;
+}
+
+.right__price{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: 0.1em;
+    color: #F6762C;
+    margin-bottom: 10px;
+}
+
+.right__price_old{
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.1em;
+    text-decoration-line: line-through;
+    color: #F6762C;
+    opacity: 0.5;
+}
+
+.menu {
+    background-color:#1C1C1C;
+    padding-top: 100px;
+}
+
+.menu-cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.menu-card {
+    width: 555px;
+    height: 300px;
+    margin: 28px 30px;
+    display: flex;
+    flex-direction: column;
+    align-items:end;
+    justify-content: center;
+}
+
+.menu-card_latte{
+    background: url(../img/latte.png);
+}
+
+.menu-card_burger{
+    background: url(../img/burger-menu.png);
+}
+
+.menu-card_pizza{
+    background: url(../img/pizza.png);
+    align-items: start;
+    .card__subtitle {
+        margin-left: 38px;
+    }
+    
+    .card__text {
+        margin-left: 38px;
+    }
+    
+    .card__price {
+        margin-left: 38px;
+    }
+    
+    .card__button{
+        margin-left: 38px;
+    }
+}
+
+.menu-card_tacco{
+    background: url(../img/tacco.png);
+    align-items: start;
+    .card__subtitle {
+        margin-left: 38px;
+    }
+    
+    .card__text {
+        margin-left: 38px;
+    }
+    
+    .card__price {
+        margin-left: 38px;
+    }
+    
+    .card__button{
+        margin-left: 38px;
+    }
+    
+}
+
+.card__subtitle {
+    width: 263px;
+    margin-bottom: 20px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 35px;
+    color: #FFFFFF;
+}
+
+.card__text {
+    width: 263px;
+    height: 40px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+
+    opacity: 0.7;
+}
+
+.card__price {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 23px;
+    letter-spacing: 0.1em;
+
+    color: #F6762C;
+    margin-bottom: 10px;
+    width: 263px;
+}
+
+.card__price_old{
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.1em;
+    text-decoration-line: line-through;
+    color: #F6762C;
+    opacity: 0.5;
+}
+
+.card__button{
+    margin-right: 100px;
+}
+
+.feedback{
+    background-color:#1C1C1C;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.feedback-holder{
+    display: flex;
+    justify-content: space-around;
+}
+
+.tab-box{
+    position: relative;
+}
+
+.content__img_2{
+    position: absolute;
+    left: 63px;
+    top: 62px;
+    border-radius: 50%;
+    width: 233px;
+    height: 233px;
+    background-color: transparent;
+    border: 1px dashed #f64e2c;
+ 
+}
+
+.tab_main._blow{
+    animation: blowing .7s ease-in-out;
+}
+
+@keyframes blowing {
+    from{  box-shadow: 0px 4px 25px 40px rgba(246, 118, 44,1); opacity: 0;}
+    to{  box-shadow: 0px 4px 25px 40px rgba(246, 118, 44,0); opacity: 1;}
+}
+
+@keyframes moving{
+    from{transform:translateX(50px); opacity:0;};
+    to{transform: translateX(2px); opacity:1;}
+  }
+
+.tab_main{
+    position: absolute;
+    width: 112px;
+    height: 112px;
+    border-radius: 50%;
+    box-shadow: 0px 4px 25px 40px rgba(246, 118, 44, 0.05);
+    background:url(../img/visiter2.svg);
+    background-repeat:  no-repeat;
+    background-size: contain;
+    top: 116px;
+    left: 124px;
+}
+
+.tab__btn{
+    position: absolute;
+    width: 84.759px;
+    height: 86.759px;
+
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.tab__btn_1{
+    background-size: contain;
+    top: -39px;
+    left: 155px;
+    background: url(../img/visiter1.svg) ;
+}
+
+.tab__btn_2 {
+    top: 278px;
+    left: 234px;
+    background: url(../img/visiter2.svg) no-repeat;
+    background-size: contain;
+}
+
+.tab__btn_3{
+    top: 92px;
+    left: 299px;
+    background: url(../img/visiter3.svg) no-repeat;
+    background-size: contain;
+}
+
+.tab__btn_4{
+    top: 49px;
+    left: -23px;
+    background: url(../img/visiter4.svg) no-repeat;
+    background-size: contain;
+}
+
+.tab__btn_5{
+    top: 250px;
+    left: -8px;
+    background: url(../img/visiter5.svg) no-repeat;
+    background-size: contain;
+}
+
+.content__text{
+    text-align: center;
+    margin-bottom: -10px;
+}
+
+.content{
+    text-align: center;
+    display: none;
+}
+
+.content._active{
+    display: block;
+    animation: moving .6s;
+}
+
+.content__img_quote{
+    margin-bottom: 20px;
+}
+
+.content__title{
+    font-size: 24px;
+    margin-bottom: -60px;
+}
+
+.download{
+    padding-bottom: 12px;
+    padding-top: 62px;
+    background-color: #312F30;
+}
+
+.download-holder{
+    display: flex;
+    justify-content: space-around;
+}
+
+.download__title{
+    font-size: 40px;
+}
+
+.footer{
+    padding-bottom: 140px;
+    padding-top: 86px;
+    background-color:#1C1C1C;
+}
+
+
+.footer-colomns{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+
+}
+
+.footer-colomn{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.column__text{
+    font-size: 12px;
+    width: auto;
+    height: auto;
+    margin: 10px 0;
+}
+
+
+.social__img{
+    margin: 10px 0;
+    margin-right: 4px;
+}
